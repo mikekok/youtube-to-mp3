@@ -1,0 +1,24 @@
+{
+    "name": "YouTube to MP3",
+    "description": "An easy way to convert and download youtube videos to MP3s",
+    "version": "0.1",
+    "manifest_version": 2,
+    "author": "Mike Kokkolios",
+    "web_accessible_resources": ["img/arrow.png"],
+    "browser_action": {
+        "default_icon": {
+            "16": "img/icon16.png",
+            "48": "img/icon48.png",
+            "128": "img/icon128.png"
+        },
+        "default_title": "YouTube to MP3"
+    },
+    "content_scripts": [{
+        "matches": ["*://*.youtube.com/*"],
+        "css": ["css/style.css"],
+        "js": [
+            "js/jquery.min.js",
+            "js/main.js"
+        ]
+    }]
+}

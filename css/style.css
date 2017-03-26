@@ -1,0 +1,5 @@
+.download-button:before {
+    background: url('chrome-extension://__MSG_@@extension_id__/img/arrow.png') no-repeat;
+    width: 20px;
+    height: 20px;
+}
