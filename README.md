@@ -12,7 +12,7 @@ The extension is using the [YouTubeInMP3 API](http://www.youtubeinmp3.com).
 git clone https://github.com/mikekok/youtube-to-mp3
 ```
 or  
-download the files into a zip
+download files into a zip
 * Navigate to `chrome://extensions`
 * Enable developer mode by ticking the checkbox which is located at the top right corner
 * Click on "Load Unpacked Extension" and choose the folder you downloaded in the first step
