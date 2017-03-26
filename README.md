@@ -6,7 +6,6 @@ The extension is using the [YouTubeInMP3 API](http://www.youtubeinmp3.com).
 ![Movie Finder](https://i.imgur.com/hKjuSh4.png "YouTube to MP3")
 
 ## Installation
-*
 ``` bash
 # Clone this repository
 git clone https://github.com/mikekok/youtube-to-mp3
